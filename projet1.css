@@ -1,0 +1,323 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    float: left;
+    }
+
+    
+#fond { margin: 0px 260px;
+        border: 1px rgb(255, 51, 0) solid;
+        width: 1200px;
+        float: left;
+    }
+        
+
+    /* medium + singn in + get started */
+
+#haut{
+    border-bottom: 2px rgb(223, 214, 214) solid;
+    height: 70px;
+    width: 1200px;
+    margin-top: 20px;
+    float: right;
+    }
+
+#mots{
+        text-align: right;
+        float:right;
+    }
+
+.signin{float: right;
+        color: blueviolet;
+        margin-right: 15px;
+    }
+
+.getstarted{
+        border-radius: 10px;
+        border: 2px blueviolet solid;
+        color: blueviolet;
+        float: right;
+        padding: 9px;
+       margin:9px 0px;
+    }
+
+  /* navigation avev one zero + consummer + digital life + industry + science & medidine + about */
+#navigation{ 
+        margin-top: 5px;
+        width: 1200px;
+        float: left;
+        height: 60px;
+        line-height: 30px;
+        box-shadow: 1px 5px 2px 0px rgba(0, 0, 255, .1);
+    }
+
+        /*photo du onezero , navigation*/
+
+#onezero{
+        float: left;  
+       
+        }
+
+#onezero img{
+        float: left;
+        left: 0px;
+        }
+
+            /* textee one zero */
+#onezero p{
+        color: rgb(104, 103, 105);
+        float: left;
+        margin-left: 30px;
+        font-size: 15px;
+        }
+
+
+        /* partie section*/
+
+section {
+    position: relative;
+    margin-left: 175px;
+    margin-top: 154px;
+    width: 830px;
+    height: 270px;
+      }
+
+      h1{
+        font-size: 35px;
+        float: left;
+        margin-bottom: 10px;
+      }
+
+      #titre{
+          width: 700px;
+          float: left;
+    }
+      .petittitre{
+          font-size: 20px;
+          color: #696969;
+          float: left;
+          margin-top: 0px;
+      }
+
+        /* photo ronde harry*/
+
+    #photo{
+        position: absolute;
+        margin-top: 190px;
+        float: left;
+        }
+        
+      #photo img{ 
+          border-radius: 50%;
+          float: left;
+          position: absolute;
+            }
+
+    
+
+        /* partie guinness + texte avec follow*/
+
+    #guinness{
+        position: absolute;
+            height: auto;
+            width: 300px;
+            float: left;
+            left: 65px;
+            top:183px;
+        }
+
+        /*bouton follow */
+
+  #guinness .follow {
+        position: relative;
+        border-radius: 9px;
+        border: 2px rgb(55, 43, 226) solid;
+        color: rgb(55, 43, 226);
+        float: right;
+        right: 120px;
+        padding: 3px 10px;
+        font-size: 12px;
+            }
+
+  #guinness p.harry{
+        float: left;
+        position: absolute;
+        font-size: 14px;
+        }
+
+#guinness p.jul2{
+        float: left;
+        position: relative;
+        font-size: 14px;
+        color: #696969;
+        top: 25px;
+        }
+    
+
+            /* photo paradise */
+
+    #paradise img{
+             float: left;
+            }
+
+    #paradise p{
+        text-align: center;
+        line-height: 40px;
+        }
+
+
+ /* fin partie section*/
+
+
+/*partie article*/
+
+aside{
+    float: left;
+    left: 100px;
+    border: rgb(0, 225, 255) 1px solid;
+    height: 500px;
+    }
+
+       /* partie gauche avec onezero*/
+
+#gauche {
+    border-bottom: #696969 2px solid;
+    height: 200px;
+    width: 180px;
+    }
+
+
+#gauche p{ 
+    color: #696969;
+    float: left;
+    top: 30px;
+    font-size: 14px;
+        }
+
+#gauche img{ 
+      float: left;
+            }
+
+        /* bouton follow*/
+
+#gauche .follow{
+        
+        border-radius: 9px;
+        border: 2px rgb(55, 43, 226) solid;
+        color: rgb(55, 43, 226);
+        padding: 8px 18px;
+        font-size: 15px;
+        float: left;
+        top: 120px;
+             }
+
+             /*partie petit logo*/
+
+#petitlogo{
+    border: tomato 1px solid;
+    width: 80px;
+    height: 200px;
+    float: left;
+    top: 85px;
+    position: relative;
+    right: 90px;
+    bottom: 30px
+
+        }
+
+#petitlogo p{
+    float: right;
+    bottom: 18px;
+   right: 28px;
+    border: 1px red solid}
+   
+
+  #petitlogo img{
+      float: left;
+      border: 1px red solid;
+     
+  }  
+
+  /* grosse parti du texte*/
+
+  article{
+      border: 1px blue solid;
+     height: 2350px;
+     float: left;
+     margin-left: 180px;
+     position: relative;
+       }
+
+
+#texte {
+      float: left;
+       color: rosybrown;}
+
+/* lettre y en gros*/
+
+
+#lettrey{
+    float: left;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    background-color: #000000;
+    height: 120px;
+    width: 120px;
+    color: white;
+      left: 448px;
+  }
+
+ #lettrey p{
+        margin: 30px;
+        font-size: 80px;
+     } 
+
+
+  #grospavet{
+    float: left;
+    text-align: left;
+     border: rgb(92, 255, 71) 1px solid;
+     
+     width: 800px;
+     
+        }
+
+footer{
+    border: turquoise 1px solid;
+    float: left;
+    margin-left: 180px;
+   
+    }
+
+#carre {
+    background-color: rgb(240, 231, 231);
+    color: #424141;
+    float: left;
+    border-radius: 3px;
+    padding: 10px;
+    width: 900px;
+    
+    }
+
+#carre p{
+    display: inline; 
+    padding: 20px 20px;
+ 
+    }
+
+    /* contact*/
+
+#contactharry{ 
+    float: left;
+    border: #424141 1px solid;
+}
+
+#coordonnee p{ 
+            height: auto;
+            width: 300px;
+            float: left;
+            left: 65px;
+            top:183px;
+}
