@@ -8,7 +8,6 @@ body {
 
     
 #fond { margin: 0px 260px;
-        border: 1px rgb(255, 51, 0) solid;
         width: 1200px;
         float: left;
     }
@@ -50,23 +49,23 @@ body {
         float: left;
         height: 60px;
         line-height: 30px;
-        box-shadow: 1px 5px 2px 0px rgba(0, 0, 255, .1);
+        box-shadow: 0px 3px 2px rgba(0, 0, 255, .1);
     }
 
         /*photo du onezero , navigation*/
 
-#onezero{
+#navigation #onezero{
         float: left;  
        
         }
 
-#onezero img{
+#navigation #onezero img{
         float: left;
         left: 0px;
         }
 
             /* textee one zero */
-#onezero p{
+#navigation #onezero p{
         color: rgb(104, 103, 105);
         float: left;
         margin-left: 30px;
@@ -171,19 +170,18 @@ section {
  /* fin partie section*/
 
 
-/*partie article*/
+/*partie logo à gauche*/
 
 aside{
     float: left;
     left: 100px;
-    border: rgb(0, 225, 255) 1px solid;
     height: 500px;
     }
 
        /* partie gauche avec onezero*/
 
 #gauche {
-    border-bottom: #696969 2px solid;
+    border-bottom: #dad7d7 1px solid;
     height: 200px;
     width: 180px;
     }
@@ -213,47 +211,45 @@ aside{
         top: 120px;
              }
 
+
              /*partie petit logo*/
 
 #petitlogo{
-    border: tomato 1px solid;
     width: 80px;
     height: 200px;
     float: left;
     top: 85px;
     position: relative;
-    right: 90px;
+    right: 100px;
     bottom: 30px
 
         }
 
-#petitlogo p{
-    float: right;
-    bottom: 18px;
-   right: 28px;
-    border: 1px red solid}
-   
+
 
   #petitlogo img{
       float: left;
-      border: 1px red solid;
-     
+      padding: 5px;
+      margin: 5px;
+      
   }  
 
   /* grosse parti du texte*/
 
   article{
-      border: 1px blue solid;
-     height: 2350px;
+     height: 4400px;
      float: left;
      margin-left: 180px;
-     position: relative;
-       }
+     position: absolute;
+     width: 830px;
+    }
 
 
 #texte {
-      float: left;
-       color: rosybrown;}
+    float: left;
+    margin-left: 20px;
+}
+       
 
 /* lettre y en gros*/
 
@@ -266,7 +262,8 @@ aside{
     height: 120px;
     width: 120px;
     color: white;
-      left: 448px;
+    margin: 20PX 15px 0px 0px;
+   
   }
 
  #lettrey p{
@@ -276,48 +273,171 @@ aside{
 
 
   #grospavet{
+      font-family: Georgia, 'Times New Roman', Times, serif;
     float: left;
     text-align: left;
-     border: rgb(92, 255, 71) 1px solid;
-     
-     width: 800px;
-     
-        }
+    width: 670px;
+    font-size: 23px;
+    position: relative;
+       }
 
-footer{
-    border: turquoise 1px solid;
-    float: left;
-    margin-left: 180px;
-   
-    }
+
 
 #carre {
-    background-color: rgb(240, 231, 231);
-    color: #424141;
+        
+    width: 650px;
     float: left;
-    border-radius: 3px;
-    padding: 10px;
-    width: 900px;
-    
-    }
+    margin-left: 135px;
+    position: relative;
+    margin-bottom: 50px;
+ }
 
 #carre p{
     display: inline; 
-    padding: 20px 20px;
- 
+    background-color: rgb(240, 231, 231);
+    color: #888888;
+    border-radius: 3px;
+    padding: 10px;
     }
 
     /* contact*/
 
 #contactharry{ 
-    float: left;
-    border: #424141 1px solid;
+    position: relative;
+    width: 830px;
 }
 
-#coordonnee p{ 
-            height: auto;
-            width: 300px;
-            float: left;
-            left: 65px;
-            top:183px;
+
+ #photo2 img{
+          border-radius: 50%;
+          float: left;
+          position:  relative;
+          left: 128px;
+            }
+
+#coordonnee{
+    float: left;
+    margin-left: 70px;
+    width: 320px;
 }
+
+#coordonnee p{       
+    float: left;
+    padding: 5px ;
+}
+
+p.HG {
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+ #coordonnee p.follow{
+     border-radius: 9px;
+     border: 2px rgb(55, 43, 226) solid;
+    color: rgb(55, 43, 226);
+    padding:10px;
+    margin-left: 15px;
+    float: left;
+    margin-bottom: }
+
+
+
+    footer{
+    float: left;
+    position: relative;
+    margin-top: 4700px;
+    
+    }
+
+
+
+#onezero2{
+    width: 440px;
+    left: 75px;
+    float: right;
+    position: relative;
+    bottom: 210px;
+}
+
+#onezero2 p{
+    width: 200px;
+    margin-left: 70px; 
+    margin-top:40px;
+padding-top: 5px; }
+
+#imgonezero{ float:left;
+    margin-right: 50px;}
+
+#onezero2 img{ 
+    float: left;
+    margin-right:20px;
+    }
+
+
+    #onezero2 .follow{ 
+        border-radius: 9px;
+        border: 2px rgb(55, 43, 226) solid;
+        color: rgb(55, 43, 226);
+        padding: 10px;
+        float: right;
+        text-align: right;
+        width: auto;
+        margin-right: 60px;
+        
+        }
+
+ 
+
+
+    #imagebas{
+        float: left;
+        width: 1200px;
+        margin-right: 60px;
+        bottom: 800px;
+        position: relative;
+    }
+
+
+    #imagebas img{ 
+        position: relative;
+        float: left;
+        border-radius: 10px;
+    }
+
+
+    #amazon {
+        border-radius: 10px;
+        border: #cac7c7 1px solid;
+        width: 380px;
+        height: 260px;
+         float: left;
+        margin: 0px 15px 10px 0px;
+    }
+
+    #malaysia{
+        border-radius: 10px;
+        border: #cac7c7 1px solid;
+        width: 380px;
+        height: 260px;
+        float: left;
+        margin: 0px 15px 10px 0px;
+    }
+
+    #libra {
+        border-radius: 10px;
+        border: #cac7c7 1px solid;
+        width: 380px;
+        height: 260px;
+        float: left;
+        margin: 0px 15px 10px 0px;
+    
+}
+
+    #imagebas p{
+        float: left;
+        padding: 10px ;
+        
+    }
+    
+
+    
